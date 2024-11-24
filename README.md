@@ -20,3 +20,7 @@ El siguiente diagrama de clases continen los siguientes requerimientos:
 
 https://drive.google.com/file/d/1psXMVYWBezfPbjQP-NEfAnjF3WCpufRM/view?usp=sharing
 
+# Codificación del diagrama
+
+https://github.com/Sebaslsst/Parqueadero/tree/master/src
+
