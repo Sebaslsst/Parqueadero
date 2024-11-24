@@ -22,5 +22,4 @@ https://drive.google.com/file/d/1psXMVYWBezfPbjQP-NEfAnjF3WCpufRM/view?usp=shari
 
 # Codificación del diagrama
 
-https://github.com/Sebaslsst/Parqueadero/tree/master/src
-
+https://github.com/Sebaslsst/Parqueadero/tree/develop/src
