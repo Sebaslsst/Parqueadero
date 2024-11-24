@@ -17,5 +17,6 @@ El siguiente diagrama de clases continen los siguientes requerimientos:
 ![Captura de pantalla 2024-11-23 224912](https://github.com/user-attachments/assets/33a0e1a3-5924-4e83-ae72-70297983f73d)
 
 **Drive con el diagrama más claro**
+
 https://drive.google.com/file/d/1psXMVYWBezfPbjQP-NEfAnjF3WCpufRM/view?usp=sharing
 
