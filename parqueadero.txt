@@ -1,0 +1,82 @@
+//Código Parqueadero
+import java.util.ArrayList;
+import java.util.List;
+
+public class Parqueadero {
+    private float tiempoUso;
+    private int cantidadUso;
+
+    private List<Piso> pisos = new ArrayList<>();
+    private List<EspacioParaEstacionar> espacios = new ArrayList<>();
+
+    public Parqueadero(float tiempoUso, int cantidadUso) {
+        this.tiempoUso = tiempoUso;
+        this.cantidadUso = cantidadUso;
+    }
+
+    // Métodos para agregar pisos y espacios
+    public void agregarPiso(Piso piso) {
+        pisos.add(piso);
+    }
+
+    public void agregarEspacio(EspacioParaEstacionar espacio) {
+        espacios.add(espacio);
+    }
+}
+//Código Piso
+public class Piso {
+    private int cantidad;
+    private float tamanio;
+
+    public Piso(int cantidad, float tamanio) {
+        this.cantidad = cantidad;
+        this.tamanio = tamanio;
+    }
+
+    // Getters y Setters
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public float getTamano() {
+        return tamanio;
+    }
+
+    public void setTamano(float tamanio) {
+        this.tamanio = tamanio;
+    }
+    public String toString() {
+        return cantidad + " " ;
+    }
+}
+//Código espacio para Estacionar 
+public class EspacioParaEstacionar {
+    private int numero;
+    private String tipo;
+    private EstadoDeEspacio estado;
+    private Piso piso; // Asociación con Piso
+
+    public EspacioParaEstacionar(int numero, String tipo, EstadoDeEspacio estado, Piso piso) {
+        this.numero = numero;
+        this.tipo = tipo;
+        this.estado = estado;
+        this.piso = piso;
+    }
+
+    public Piso getPiso() {
+        return piso;
+    }
+
+    @Override
+    public String toString() {
+        return "Espacio número: " + numero + " (Tipo: " + tipo + ", Estado: " + estado + ")";
+    }
+}
+//Código Enum Estado de espacio
+public enum EstadoDeEspacio {
+    USADO, FUERADEUSO
+}
