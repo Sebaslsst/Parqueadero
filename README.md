@@ -24,6 +24,9 @@ https://drive.google.com/file/d/1psXMVYWBezfPbjQP-NEfAnjF3WCpufRM/view?usp=shari
 
 https://github.com/Sebaslsst/Parqueadero/tree/develop/src
 
+El desarrollo de software no se limita a la codificación, sino también a la planificación, organización y cooperación eficiente. Cada etapa, desde el diseño inicial (UML) hasta la implementación en Java y la administración de versiones con Git, evidencia la relevancia de la disciplina y el aprendizaje constante. El uso de herramientas como Git Flow y GitKraken incrementa la productividad, y la solución de problemas técnicos nos capacita para futuros proyectos. El desarrollo de software representa tanto una actividad técnica como una ocasión para expandirse en el ámbito profesional.
+
+
 # GITKRAKEN
 
 ![Captura de pantalla 2024-11-24 192129](https://github.com/user-attachments/assets/98c5640e-f0ba-4d28-aea0-2f1bc1bd68bb)
