@@ -23,3 +23,8 @@ https://drive.google.com/file/d/1psXMVYWBezfPbjQP-NEfAnjF3WCpufRM/view?usp=shari
 # Codificación del diagrama
 
 https://github.com/Sebaslsst/Parqueadero/tree/develop/src
+
+# GITKRAKEN
+
+![Captura de pantalla 2024-11-24 192129](https://github.com/user-attachments/assets/98c5640e-f0ba-4d28-aea0-2f1bc1bd68bb)
+
