@@ -1,8 +1,8 @@
 public class Cliente extends Persona {
 
     private String identificacion;
-    private Suscripcion suscripcion; // Asociación con Suscripcion
-    private Vehiculo vehiculo; // Asociación con un Vehículo
+    private Suscripcion suscripcion; // Relaciónn con Suscripcion
+    private Vehiculo vehiculo; // Relación con un Vehículo
 
     public Cliente(int edad, String nombre, String apellido, String identificacion, Suscripcion suscripcion, Vehiculo vehiculo) {
         super(edad, nombre, apellido);
