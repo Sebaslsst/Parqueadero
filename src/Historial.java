@@ -1,6 +1,6 @@
 public class Historial {
     private String actualizacion;
-    private int catidadUso;
+    private int cantidadUso;
 
     public void entradaVehiculo() {
         System.out.println("Vehículo registrado.");
