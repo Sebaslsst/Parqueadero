@@ -2,7 +2,7 @@ public class EspacioParaEstacionar {
     private int numero;
     private String tipo;
     private EstadoDeEspacio estado;
-    private Piso piso; // Asociación con Piso
+    private Piso piso; // Relación con Piso
 
     public EspacioParaEstacionar(int numero, String tipo, EstadoDeEspacio estado, Piso piso) {
         this.numero = numero;
