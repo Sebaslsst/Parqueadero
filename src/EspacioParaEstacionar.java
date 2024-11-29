@@ -1,7 +1,7 @@
 public class EspacioParaEstacionar {
     private int numero;
     private String tipo;
-    private EstadoDeEspacio estado;
+    private EstadoDeEspacio estado; // Relación con Estado de espacio
     private Piso piso; // Relación con Piso
 
     public EspacioParaEstacionar(int numero, String tipo, EstadoDeEspacio estado, Piso piso) {
