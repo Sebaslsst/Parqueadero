@@ -1,5 +1,5 @@
 public interface Contrato {
-    float getCantidadHoras();
-    float getCantidadPago();
-    boolean trabajar();
+    public float getCantidadHoras();
+    public float getCantidadPago();
+    public boolean trabajar();
 }
